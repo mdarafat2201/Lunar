@@ -1,11 +1,10 @@
 import React from "react";
+import Menu from "./Conponent/Menu/Menu";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-
-      <p>Click on the</p>
+      <Menu />
     </>
   );
 }
