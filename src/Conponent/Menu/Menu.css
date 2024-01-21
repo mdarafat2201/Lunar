@@ -18,6 +18,9 @@
   font-size: 18px;
   font-weight: 600;
 }
+.menuList__item a:hover {
+  color: #7c14fd;
+}
 .menuList--withIcon {
   display: flex;
   align-items: end;
@@ -29,5 +32,8 @@
   border-radius: 1000px;
   border: 1px solid #7c14fd;
   background-color: transparent;
+}
+.menuWrapperBtn__contact:hover {
+  background-color: #7c14fd;
 }
 /* ================== Menu part css end =============== */

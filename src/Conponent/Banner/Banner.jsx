@@ -77,7 +77,7 @@ const Banner = () => {
                 <img src={FiverrPro} alt={FiverrPro} />
               </picture>
             </div>
-            <Button btnstyle="contact__cbtn" btnContent="Contact Us" />
+            <Button btnstyle="contact__cbtn">Contact Us</Button>
           </div>
 
           <div className="bannerRight">
