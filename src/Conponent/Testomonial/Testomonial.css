@@ -29,6 +29,8 @@
   align-items: center;
   justify-content: center;
   padding: 130px;
+  background-color: #fff;
+  filter: drop-shadow(0px 69px 114px rgba(124, 20, 253, 0.08));
 }
 .Wrapper__box {
   width: 253px;
@@ -46,7 +48,7 @@
   left: 27px;
 }
 .TestomoniaWrapper__right {
-  padding: 0 0 0 50px;
+  padding-left: 50px;
 }
 .TestomoniaWrapper__ditels {
   color: #32046b;
@@ -58,14 +60,19 @@
 }
 .TestomoniaWrapper__link {
   color: #7c14fd;
-
-  font-size: 22px;
+  margin-right: 70px;
+  font-size: 19px;
 
   font-weight: 600;
 }
 
 .TestomoniaWrapper__icon {
-  width: 56px;
-  height: 56px;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+.TestomoniaWrapper__icon:hover {
+  color: #7c14fd;
 }
 /* ================= TestomonialPart css end ================ */

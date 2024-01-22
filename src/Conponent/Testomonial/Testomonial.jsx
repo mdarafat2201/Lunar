@@ -1,6 +1,6 @@
 import React from "react";
-import { RiArrowLeftSLine } from "react-icons/ri";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { BsArrowLeftShort } from "react-icons/bs";
+import { TiArrowRight } from "react-icons/ti";
 import "./Testomonial.css";
 
 const Testomonial = () => {
@@ -23,8 +23,8 @@ const Testomonial = () => {
               <a href="#" className="TestomoniaWrapper__link">
                 — Kimmo Hakonen - Skrum Master at DaGear AB
               </a>
-              <RiArrowLeftSLine className="TestomoniaWrapper__icon" />
-              <MdOutlineKeyboardArrowRight className="TestomoniaWrapper__icon" />
+              <BsArrowLeftShort className="TestomoniaWrapper__icon" />
+              <TiArrowRight className="TestomoniaWrapper__icon" />
             </div>
           </div>
         </div>
