@@ -1,0 +1,71 @@
+/* ================= TestomonialPart css start ================ */
+.TestomonialPart {
+  padding: 150px 0;
+}
+.TestomoniaWrapper__titelText {
+  position: relative;
+  color: #000;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+.TestomoniaWrapper__titelText::before {
+  position: absolute;
+  content: "";
+  width: 89px;
+  height: 3px;
+  bottom: -28px;
+  left: 549px;
+  border-radius: 1000px;
+  background: linear-gradient(
+    90deg,
+    #7c14fd 1.09%,
+    rgba(124, 20, 253, 0.29) 99.99%
+  );
+}
+.TestomoniaWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px;
+}
+.Wrapper__box {
+  width: 253px;
+  height: 292px;
+  border-radius: 8px;
+  background: #fc5a5a;
+  position: relative;
+}
+.Wrapper__box::before {
+  position: absolute;
+  content: url(/src/assets/quote-left.png);
+  width: 100px;
+  height: 87.5px;
+  bottom: -44px;
+  left: 27px;
+}
+.TestomoniaWrapper__right {
+  padding: 0 0 0 50px;
+}
+.TestomoniaWrapper__ditels {
+  color: #32046b;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0.2px;
+  margin-bottom: 25px;
+}
+.TestomoniaWrapper__link {
+  color: #7c14fd;
+
+  font-size: 22px;
+
+  font-weight: 600;
+}
+
+.TestomoniaWrapper__icon {
+  width: 56px;
+  height: 56px;
+}
+/* ================= TestomonialPart css end ================ */

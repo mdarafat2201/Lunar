@@ -3,6 +3,7 @@ import Menu from "./Conponent/Menu/Menu";
 import Banner from "./Conponent/Banner/Banner";
 import BusinessCard from "./Conponent/BusinessCard/BusinessCard";
 import Consultation from "./Conponent/Consultation/Consultation";
+import Testomonial from "./Conponent/Testomonial/Testomonial";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <BusinessCard />
       <Consultation />
+      <Testomonial />
     </>
   );
 }
