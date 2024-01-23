@@ -108,6 +108,31 @@ const BusinessCard = () => {
             </Button>
           </Card>
         </div>
+        <div className="PreviousWrapper">
+          <ul className="PreviousWrapper__list">
+            <li className="PreviousWrapper__list__item">
+              <a href="#">Previous</a>
+            </li>
+            <li className="PreviousWrapper__list__item">
+              <a href="#">1</a>
+            </li>
+            <li className="PreviousWrapper__list__item">
+              <a href="#">2</a>
+            </li>
+            <li className="PreviousWrapper__list__item">
+              <a href="#">3</a>
+            </li>
+            <li className="PreviousWrapper__list__item">
+              <a href="#">4</a>
+            </li>
+            <li className="PreviousWrapper__list__item">
+              <a href="#">5</a>
+            </li>
+            <li className="PreviousWrapper__list__item">
+              <a href="#">Next</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

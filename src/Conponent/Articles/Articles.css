@@ -1,0 +1,10 @@
+/* ============= Articles Part css ================*/
+
+.ArticlesPart {
+  background: url(../../assets/Articles.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+/* ============= Articles Part css ================*/
